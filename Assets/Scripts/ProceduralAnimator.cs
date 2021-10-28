@@ -12,7 +12,7 @@ public class ProceduralAnimator : MonoBehaviour
     void Start()
     {
         SortLegs();
-        body.Init(legs);
+        if(body != null) body.Init(legs);
     }
 
     void LateUpdate()
