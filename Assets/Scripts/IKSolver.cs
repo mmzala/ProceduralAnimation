@@ -5,6 +5,8 @@ using UnityEngine;
 // http://andreasaristidou.com/publications/papers/FABRIK.pdf
 // Inverse kinematics is a mathematical process used to calculate the joint positions
 // that are needed to place the end effector (last joint) at a specific position and orientation.
+// Here you can find close up footage of how the IKSolver looks like in Unity Editor:
+// https://youtu.be/7icXeyN5wHU
 
 [System.Serializable]
 public class IKSolver
