@@ -1,5 +1,11 @@
 using UnityEngine;
 
+// Summary:
+// This inverse kinematics solver uses the FABRIK algorithm found here:
+// http://andreasaristidou.com/publications/papers/FABRIK.pdf
+// Inverse kinematics is a mathematical process used to calculate the joint positions
+// that are needed to place the end effector (last joint) at a specific position and orientation.
+
 [System.Serializable]
 public class IKSolver
 {
